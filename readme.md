@@ -1,6 +1,6 @@
 # Insure
 
-![Imagen del proyecto](https://github.com/elvvira/practica-huddle/blob/main/docs/assets/desktop.jpeg?raw=true)
+![Imagen del proyecto](https://github.com/elvvira/practica-insure/blob/main/docs/assets/desktop.jpeg?raw=true)
 
 ## Ejemplo en vivo
 
@@ -26,7 +26,7 @@ En esta práctica mejoré la fluidez usando Sass y subiendo los archivos a gitHu
 
 Si quieres echar un vistazo al proyecto:
 
-![Captura del proyecto](https://github.com/elvvira/huddle-curved/blob/main/docs/assets/mobile.jpeg?raw=true)
+![Captura del proyecto](https://github.com/elvvira/practica-insure/blob/main/docs/assets/mobile.jpeg?raw=true)
 
 
 ## Autor 
