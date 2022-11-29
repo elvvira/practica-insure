@@ -4,16 +4,15 @@
 
 ## Ejemplo en vivo
 
-- [github-repositorie](https://elvvira.github.io/practica-huddle/)
+- [github-repositorie](https://elvvira.github.io/practica-insure/)
 
 ## Descripción 
 
-Huddle es una paltaforma en la que tu audiencia se puede comunicar y mejorar la conexiones, creando comunidades.
+Insure es una página que proprociona seguros de vida para familias, ofertan diferentes planes a un precio razonable.
 
 ## ¿Qué he aprendido en este proyecto? 
 
-En esta práctica mejoré la fluidez con el responsive, aprendiendo a trabajar pensando en los dos tamaños correspondientes. También mejoré mis habilidades usando la herramienta flex. 
-
+En esta práctica mejoré la fluidez usando Sass y subiendo los archivos a gitHub. También practiqué el uso de javaScript realizando un menú despleglabe.
 ## Tecnologías 
 
 <!-- Iconos sacados de: https://github.com/hendrasob/badges/blob/master/README.md y https://github.com/alexandresanlim/Badges4-README.md-Profile -->
