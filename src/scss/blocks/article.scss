@@ -1,0 +1,101 @@
+@use '../mixins/responsive.scss' as *;
+@use '../mixins/hover.scss' as *;
+
+.title--h2{
+    font-family: 'DM Serif Display', serif;
+    font-size: 3.2rem;
+    margin-bottom: 100px;
+    @include responsive (desktop){
+        text-align-last: left;
+        padding-left: 160px;
+    }
+}
+.article{
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    @include responsive (desktop){
+        flex-direction: row;
+        padding-left: 160px;
+        padding-right: 150px;
+
+    }
+
+    &__section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 100px;
+        @include responsive (desktop){
+            flex-direction: column;
+            align-items: start;
+            text-align: left;
+      
+        }
+
+        &--title{
+            font-family: 'DM Serif Display', serif;
+            font-size: 1.4rem;
+        }
+        &--text{
+            padding-left: 50px;
+            padding-right: 50px;
+            @include responsive (desktop){
+                padding-left: 0;
+            }
+        }
+    }
+}
+.section{
+    background-color: var(--dark-violet);
+    width: 80%;
+    height: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+    background-image: url(..//assets/images/bg-pattern-how-we-work-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    @include responsive (desktop){
+        background-image: url(..//assets/images/bg-pattern-how-we-work-desktop.svg);
+        background-size: 40%;
+        height: 260px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 400px;
+        padding-left: 100px;
+       
+    }
+
+    &__title{
+        font-family: 'DM Serif Display', serif;
+        font-size: 3rem;
+        padding-top: 80px;
+        @include responsive (desktop){
+            padding-top: 0;
+            width: 430px;
+            text-align: left;
+        }
+    }
+    &__title::before{
+        @include responsive (desktop){
+            content: '';
+            position: absolute;
+            width: 90px;
+            height: 1px;
+            background-color: var(--dark-violet);
+            top: -50px;
+            left: 160px;
+        }
+
+    }
+    &__button{
+        padding: 1rem;
+    }
+}

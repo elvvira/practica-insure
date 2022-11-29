@@ -1,0 +1,8 @@
+/* ESTILOS DEL MAIN */
+@use '../mixins/responsive.scss' as *;
+.main{
+    text-align: center;
+    position: relative;
+    top: -100px;
+
+}

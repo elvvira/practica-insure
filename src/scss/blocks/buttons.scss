@@ -1,0 +1,21 @@
+@use '../mixins/responsive.scss' as *;
+.button{
+    text-transform:uppercase;
+    font-family: 'Karla', sans-serif;
+    font-size: 1rem;
+    border: 1px solid white;
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    @include responsive (desktop){
+        margin-left: 0;
+        text-align: center;
+        width: 14%;
+     }
+}
+.button:hover{
+    background-color: white;
+    color: var(--dark-violet);
+}
+
+       
